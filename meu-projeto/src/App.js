@@ -2,14 +2,23 @@
 import './App.css';
 
 function App() {
+const name = "Gabriel";
+
+function soma(a,b){
+return a+b;
+
+}
+const url = "https://via.placeholder.com/150"
+const newName = name.toUpperCase();
+
   return (
     <div className="App">
 
-<h1>Olá Mundo!</h1>
-<br/>
-<h2>Olá React!</h2>
-<br/>
-<p>Meu primeiro App</p>
+<h2>Alterando o JSX</h2>
+<p>Olá,{newName}</p>
+<p>soma:{soma(10,1)}</p>
+
+<img src={url} alt=''/>
 
     </div>
   );
