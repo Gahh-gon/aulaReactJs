@@ -1,5 +1,6 @@
 
 import './App.css';
+import HelloWorld from '../src/components/HelloWorld';
 
 function App() {
 const name = "Gabriel";
@@ -19,6 +20,8 @@ const newName = name.toUpperCase();
 <p>soma:{soma(10,1)}</p>
 
 <img src={url} alt=''/>
+
+<HelloWorld/>
 
     </div>
   );
